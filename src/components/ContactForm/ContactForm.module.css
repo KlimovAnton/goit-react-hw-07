@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.button {
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: lightsalmon;
+}
+
+.error {
+    color:red;
+}

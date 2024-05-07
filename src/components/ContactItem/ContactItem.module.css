@@ -1,0 +1,16 @@
+.text {
+    margin: 5px 0;
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.button:hover {
+    background-color: lightsalmon;
+}
