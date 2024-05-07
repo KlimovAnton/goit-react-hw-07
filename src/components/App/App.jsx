@@ -5,8 +5,6 @@ import ContactList from "../ContactList/ContactList";
 import { fetchContacts } from "../../redux/contactsOps";
 import { useDispatch, useSelector } from "react-redux";
 
-console.dir(fetchContacts)
-
 export default function App() {
   
   const dispatch = useDispatch();

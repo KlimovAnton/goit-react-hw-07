@@ -4,7 +4,6 @@ import css from "./ContactList.module.css"
 
 export default function ContactList () {
 
-    
     const items = useSelector(state => state.contacts.items)
     console.log(items)
     // const value = useSelector(state => state.filters.name)
