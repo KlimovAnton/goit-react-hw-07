@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import css from "./SearchBox.module.css"
 import { filtersSlice } from "../../redux/filtersSlice"
 

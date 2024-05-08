@@ -11,7 +11,6 @@ export default function ContactForm () {
     const phoneId = useId()
 
     const handleSubmit = (values, actions) => {
-        console.log(values)
         dispatch(addContact(values))
         actions.resetForm()
     }
